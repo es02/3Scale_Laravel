@@ -1,0 +1,24 @@
+
+{
+    "name": "es02/3Scale_Laravel",
+    "description": "Wrapper for 3Scale.",
+    "license": "MIT",
+    "keywords":["Laravel", "Lumen", "3Scale"],
+    "authors": [
+        {
+            "name": "Aimi Hobson",
+            "email": "ahobson@redhat.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.0",
+        "tdaws/3scale_ws_api_for_php": ">=2.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "es02/3Scale_Laravel\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
